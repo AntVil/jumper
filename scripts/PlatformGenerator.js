@@ -23,20 +23,11 @@ class PlatformGenerator {
                 this.height -= 0.2;
             }
 
-            return new PlatformHiding(
+            return new Platform(
                 Math.random() * 0.9,
                 this.height,
                 0.1,
                 0.02
-            )
-
-            return new PlatformMovingHorizontal(
-                Math.random() * 0.9,
-                this.height,
-                0.1,
-                0.02,
-                Math.random() + 0.5,
-                0
             )
         default:
             alert("something went wrong!");
