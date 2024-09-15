@@ -43,6 +43,6 @@ class Game {
     }
 
     handleMotion(e) {
-        this.inputAcceleration = e.accelerationIncludingGravity.x / 100;
+        this.inputAcceleration = e.accelerationIncludingGravity.x / 100000;
     }
 }
